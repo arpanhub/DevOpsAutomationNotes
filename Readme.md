@@ -1,4 +1,4 @@
-# 📚 DevOps Automation Notes
+# 📚 
 
 Welcome! Click on a topic to view the notes:
 
