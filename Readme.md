@@ -1,7 +1,7 @@
-# 📚 DevOps Automation Notes
+# 📚 
 
 Welcome! Click on a topic to view the notes:
 
-- [Agile Software](./Agile/README.md)
-- [Cloud Computing](./Cloud_Computing/README.md)
-- [DevOps](./DevOps/README.md)
+- [Agile Software](./Agile/Readme.md)
+- [Cloud Computing](./Cloud_Computing/Readme.md)
+- [DevOps](./DevOps/Readme.md)
