@@ -27,3 +27,46 @@ DevOps is a set of practices that combines software development (Dev) and IT ope
 - **Configuration Management**: Ansible, Puppet, Chef
 - **Containerization**: Docker, Kubernetes
 - **Monitoring and Logging**: Prometheus, Grafana, ELK Stack
+
+<!-- starting with docker -->
+## Docker
+Docker is a platform that enables developers to automate the deployment of applications inside lightweight, portable containers. Containers package an application and its dependencies, ensuring consistency across different environments.
+
+### Key Concepts
+- **Images**: Read-only templates used to create containers.
+- **Containers**: Lightweight, portable instances of applications running in isolated environments.
+- **Dockerfile**: A script containing instructions to build a Docker image.
+- **Docker Compose**: A tool for defining and running multi-container Docker applications.
+
+### Basic Commands
+- `docker run`: Create and start a container.
+- `docker ps`: List running containers.
+- `docker stop`: Stop a running container.
+- `docker build`: Build a Docker image from a Dockerfile.
+- `docker-compose up`: Start all services defined in a `docker-compose.yml` file.
+### Example Dockerfile
+```dockerfile
+FROM python:3.9-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+CMD ["python", "app.py"]
+```
+### Example docker-compose.yml
+```yaml
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+```
+## Conclusion
