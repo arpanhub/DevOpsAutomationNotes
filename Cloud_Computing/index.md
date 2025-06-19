@@ -76,14 +76,15 @@ what is networking?
 - **Metropolitan Area Network** — a network that connects devices within a city or a large campus, typically larger than a LAN but smaller than a WAN.
 
 ### VPN
-- **Virtual Private Network** — a secure connection that allows users to access a private network over the internet, encrypting data to protect
+- **Virtual Private Network** — a secure connection that allows users to access a private network over the internet, encrypting data to protect it from unauthorized access.
 
 
-# Questions:
-- In an Org 2 Labs are to be setup each having the size of 24 computers provided the IP address 192.165.10.0/24. What will be the subnet IP for these 2 labs?
-# Answer:
-
-
-
-
-
+<!-- watch yt videos of these topics (Fundamental of networking, Project lifecycle, terraform, jenkins, data docs, jira->(SRE, Agile)) -->
+<!-- /Yt video to watch -->
+## Additional Resources(watch Their yt video)
+- Fundamental of Networking
+- Project Lifecycle
+- Terraform
+- Jenkins
+- Data Docs
+- Jira (SRE, Agile)

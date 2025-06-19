@@ -31,6 +31,13 @@ DevOps is a set of practices that combines software development (Dev) and IT ope
 <!-- starting with docker -->
 ## Docker
 Docker is a platform that enables developers to automate the deployment of applications inside lightweight, portable containers. Containers package an application and its dependencies, ensuring consistency across different environments.
+<!-- need of docker -->
+### Why Use Docker?
+- **Portability**: Run containers on any system that supports Docker without worrying about dependencies.
+- **Isolation**: Each container runs in its own environment, preventing conflicts between applications.
+- **Scalability**: Easily scale applications by running multiple containers.
+- **Efficiency**: Containers share the host OS kernel, making them lightweight and fast to start.
+
 
 ### Key Concepts
 - **Images**: Read-only templates used to create containers.
@@ -44,6 +51,26 @@ Docker is a platform that enables developers to automate the deployment of appli
 - `docker stop`: Stop a running container.
 - `docker build`: Build a Docker image from a Dockerfile.
 - `docker-compose up`: Start all services defined in a `docker-compose.yml` file.
+<!-- more commands like images,history,delete,pull -->
+- `docker images`: List all Docker images.
+- `docker rmi`: Remove a Docker image.
+- `docker pull`: Download a Docker image from a registry.
+- `docker exec`: Execute a command in a running container.
+<!-- more commands related to the docker  container start stop restart with container ID-->
+- `docker rm`: Remove a stopped container.
+- `docker inspect`: View detailed information about a container or image.
+- `docker network ls`: List all Docker networks.
+- `docker volume ls`: List all Docker volumes.
+- `docker start`: Start a stopped container.
+- `docker restart`: Restart a running or stopped container.
+- `docker logs`: View the logs of a container.
+- `docker network`: Manage Docker networks.
+<!-- what is inractive and terminal and detached mode in docker -->
+### Running Containers
+- **Interactive Mode**: Use `docker run -it <image>` to run a container interactively, allowing you to access the terminal.
+- **Detached Mode**: Use `docker run -d <image>` to run a container in the background, allowing it to run independently of the terminal.
+
+
 ### Example Dockerfile
 ```dockerfile
 FROM python:3.9-slim
@@ -69,4 +96,3 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
 ```
-## Conclusion
