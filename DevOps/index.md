@@ -70,6 +70,22 @@ Docker is a platform that enables developers to automate the deployment of appli
 - **Interactive Mode**: Use `docker run -it <image>` to run a container interactively, allowing you to access the terminal.
 - **Detached Mode**: Use `docker run -d <image>` to run a container in the background, allowing it to run independently of the terminal.
 
+<!-- what is dockerfile -->
+A Dockerfile is a text file that contains instructions for building a Docker image. It defines the environment in which an application runs, including the base image, dependencies, and configuration.
+<!-- what is base imagee -->
+### Base Image
+A base image is the starting point for building a Docker image. It can be an official image
+from Docker Hub or a custom image. Base images provide the necessary environment and libraries for your application to run.
+<!-- type of base image(Full os base iamge, language runntime image and scratch empty) -->
+### Types of Base Images
+1. **Full OS Base Image**: Contains a complete operating system (e.g., Ubuntu, CentOS).
+2. **Language Runtime Image**: Includes a specific programming language runtime (e.g., Python, Node.js).
+3. **Scratch**: An empty base image used to build minimal images from scratch, often used for small, single-purpose applications.
+
+### Basic Dockerfile Structure
+```dockerfile
+# Use an official base image
+FROM <base_image>
 
 ### Example Dockerfile
 ```dockerfile

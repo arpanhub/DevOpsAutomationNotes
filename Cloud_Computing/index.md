@@ -88,3 +88,28 @@ what is networking?
 - Jenkins
 - Data Docs
 - Jira (SRE, Agile)
+
+<!-- virtualisation introdction -->
+## Virtualization
+Virtualization is the process of creating virtual versions of physical resources, such as servers, storage devices, and networks. It allows multiple virtual instances to run on a single physical machine, improving resource utilization and flexibility.
+<!-- explain using the flow diagram -->
+<!-- what is VM -->
+## Overview
+Virtualization enables the abstraction of physical hardware, allowing multiple virtual machines (VMs) to run on a single physical host. This technology is widely used in cloud computing, data centers, and enterprise environments to optimize resource usage, enhance scalability, and improve disaster recovery capabilities.
+<!-- what is hypervisor -->
+<!-- host OS, Guest OS,Virtual mahcine monitor -->
+
+
+
+## Key Concepts
+- **Hypervisor**: A software layer that enables virtualization by allowing multiple virtual machines (VMs) to run on a single physical host. It manages the allocation of resources to each VM.
+    <!-- what hypervisor is AWS uses ? --> 
+- **Types of Hypervisors**:
+  - **Type 1 Hypervisor**: Runs directly on the host's hardware (e.g., VMware ESXi, Microsoft Hyper-V, Xen,KVM).
+  - **Type 2 Hypervisor**: Runs on top of a host operating system (e.g., Oracle VirtualBox, VMware Workstation).
+- **Virtual Machine (VM)**: An emulation of a physical computer that runs an operating system and applications as if it were a separate physical machine.
+- **Containerization**: A lightweight form of virtualization that packages applications and their dependencies into containers, allowing them to run consistently across different environments (e.g., Docker).
+- **Orchestration**: The process of managing and automating the deployment, scaling, and operation of virtualized resources, often using tools like Kubernetes for containers or VMware vSphere for VMs.
+
+
+
