@@ -10,6 +10,11 @@
 - **Scrum Master**: Facilitates the Scrum process, removes impediments, and ensures the team follows Agile practices.
 - **Development Team**: Cross-functional group responsible for delivering potentially shippable increments of the product.
 
+<!-- team size and why -->
+# Team Size:
+- **Optimal Size**: Agile teams typically consist of 9 to 11 members.
+- **Reason**: This size allows for effective communication, collaboration, and decision-making while ensuring that the team remains agile and responsive to changes.
+
 <!-- Introduction Agile methodology -->
 # Agile Methodology:
 Agile is an iterative and incremental approach to software development that emphasizes flexibility, collaboration, and customer satisfaction. It promotes adaptive planning, evolutionary development, early delivery, and continuous improvement.
@@ -51,6 +56,14 @@ Agile is an iterative and incremental approach to software development that emph
 - **Improved Collaboration**: Agile fosters collaboration between team members and stakeholders, leading to better communication and understanding of requirements.
 - **Higher Quality**: Agile practices, such as continuous testing and feedback, help identify and address issues early, resulting in higher quality software.
 - **Customer Satisfaction**: Agile emphasizes customer involvement and feedback, ensuring that the final product meets customer expectations and delivers value.
+
+<!-- Effective Communication and conflict Resoltuion within agile teams -->
+# Effective Communication and Conflict Resolution within Agile Teams:
+- **Open Communication**: Encourage team members to share ideas, feedback, and concerns openly, fostering a culture of transparency.
+- **Daily Stand-ups**: Conduct daily stand-up meetings to discuss progress, challenges, and plans for the day, ensuring everyone is aligned and aware of each other's work.
+- **Active Listening**: Practice active listening to understand different perspectives and address concerns effectively.
+- **Conflict Resolution**: Address conflicts promptly and constructively, focusing on finding solutions rather than assigning blame.
+- **Retrospectives**: Hold regular retrospectives to reflect on team dynamics, identify areas for improvement, and implement changes to enhance collaboration and communication.
 
 <!-- Roles of JIRA Usage in Agile -->
 # Roles of JIRA Usage in Agile:

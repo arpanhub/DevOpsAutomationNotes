@@ -81,11 +81,25 @@ from Docker Hub or a custom image. Base images provide the necessary environment
 1. **Full OS Base Image**: Contains a complete operating system (e.g., Ubuntu, CentOS).
 2. **Language Runtime Image**: Includes a specific programming language runtime (e.g., Python, Node.js).
 3. **Scratch**: An empty base image used to build minimal images from scratch, often used for small, single-purpose applications.
+<!-- multi stage building -->
+### Multi-Stage Builds
+Multi-stage builds allow you to create smaller, more efficient Docker images by separating the build environment from the runtime environment. This reduces the final image size by excluding unnecessary build dependencies.
 
 ### Basic Dockerfile Structure
 ```dockerfile
 # Use an official base image
 FROM <base_image>
+# Set the working directory
+WORKDIR /app
+# Copy files from the host to the container
+COPY . .
+# Install dependencies
+RUN pip install -r requirements.txt
+# Expose a port
+EXPOSE 5000
+# Define the command to run the application
+CMD ["python", "app.py"]
+```
 
 ### Example Dockerfile
 ```dockerfile
